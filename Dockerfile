@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM openshift/nodejs:10-ubi8
 
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
